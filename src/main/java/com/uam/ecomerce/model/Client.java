@@ -9,8 +9,8 @@ import java.util.List;
 
 @Entity
 @Data
-public class Client {
 
+public class Client {
     @Id
     @SequenceGenerator(name = "client_seq",
             sequenceName = "client_seq",
